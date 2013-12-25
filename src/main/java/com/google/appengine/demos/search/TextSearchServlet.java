@@ -55,6 +55,7 @@ public class TextSearchServlet extends HttpServlet {
    * consistency, which is Consistency.PER_DOCUMENT. These types of
    * indexes are most suitable for streams and feeds, and can cope with
    * a high rate of updates. Adding some random lines to test commit.
+   * and now for some even more junk comments to commit.
    */
   private static final Index INDEX = SearchServiceFactory.getSearchService()
       .getIndex(IndexSpec.newBuilder().setName("shared_index"));
