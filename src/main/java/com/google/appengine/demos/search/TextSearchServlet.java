@@ -54,7 +54,7 @@ public class TextSearchServlet extends HttpServlet {
    * we create one instance only. We build an index with the default
    * consistency, which is Consistency.PER_DOCUMENT. These types of
    * indexes are most suitable for streams and feeds, and can cope with
-   * a high rate of updates.
+   * a high rate of updates. Adding some random lines to test commit.
    */
   private static final Index INDEX = SearchServiceFactory.getSearchService()
       .getIndex(IndexSpec.newBuilder().setName("shared_index"));
